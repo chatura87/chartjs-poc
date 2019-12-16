@@ -1,0 +1,7 @@
+<button (click)="updateColors()">Update colors</button>
+<button (click)="changeType()">Update chart type</button>
+<button (click)="renderAsImage()">Render image</button>
+<div class="chart">
+<canvas id="mixchart" width="700px"></canvas>
+</div>
+<img *ngIf=imageUrl [src]=imageUrl>
