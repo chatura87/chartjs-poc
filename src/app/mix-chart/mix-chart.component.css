@@ -1,4 +1,5 @@
 .chart {
   width: 90%;
   height: 50%;
+  display: grid;
 }
